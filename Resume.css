@@ -1,0 +1,71 @@
+.positionMe {
+    position: relative;
+    top: 50px;
+    width: 150px;
+}
+
+i {
+    color: blue;
+    margin-left: 5px;
+}
+
+a {
+    color: blue;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.hello {
+    color: white;
+}
+
+footer {
+    font-size: large;
+}
+
+div.center {
+    float: center;
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.container1 {
+    font-family: 'Fondamento', cursive;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: black;
+}
+
+span {
+    color: blue;
+}
+
+.hi {
+    font-size: 25px;
+}
+
+hr {
+    background-color: grey;
+}
+div.Education{
+    color: white;
+    text-align: center;
+}
+.date{
+    color: white;
+}
+h4{
+    color: white;
+    
+}
