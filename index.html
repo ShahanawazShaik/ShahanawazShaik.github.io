@@ -310,39 +310,43 @@
             <div class="count-box">
               <i class="icofont-certificate-alt-1"></i>
               <span data-toggle="counter-up">8</span>
-              <p><strong></strong></p>
+              <div class="row mt-3">
+                <button type="button" class="btn-primary btn-sm" onclick="ShowHide()">Show Credentials</button>
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col">
-              <img src="Certificates/Django.png" class="img-fluid img-thumbnail" alt="Responsive image">
+          <div id="myDiv" style="display: none;">
+            <div class="row">
+              <div class="col">
+                <img src="Certificates/Django.png" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
+              <div class="col">
+                <img src="Certificates/Keras.png" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
+              <div class="col">
+                <img src="Certificates/FR.png" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
             </div>
-            <div class="col">
-              <img src="Certificates/Keras.png" class="img-fluid img-thumbnail" alt="Responsive image">
+            <div class="row mt-2">
+              <div class="col">
+                <img src="Certificates/DL.png" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
+              <div class="col">
+                <img src="Certificates/LR.png" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
+              <div class="col">
+                <img src="Certificates/R.png" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
             </div>
-            <div class="col">
-              <img src="Certificates/FR.png" class="img-fluid img-thumbnail" alt="Responsive image">
-            </div>
-          </div>
-          <div class="row mt-2">
-            <div class="col">
-              <img src="Certificates/DL.png" class="img-fluid img-thumbnail" alt="Responsive image">
-            </div>
-            <div class="col">
-              <img src="Certificates/LR.png" class="img-fluid img-thumbnail" alt="Responsive image">
-            </div>
-            <div class="col">
-              <img src="Certificates/R.png" class="img-fluid img-thumbnail" alt="Responsive image">
-            </div>
-          </div>
-          <div class="row mt-2">
-            <div class="col">
-              <img src="Certificates/Web.png" class="img-fluid img-thumbnail" alt="Responsive image">
-            </div>
-            <div class="col">
-              <img src="Certificates/Python.png" class="img-fluid img-thumbnail" alt="Responsive image">
-            </div>
-            <div class="col">
+            <div class="row mt-2">
+              <div class="col">
+                <img src="Certificates/Web.png" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
+              <div class="col">
+                <img src="Certificates/Python.png" class="img-fluid img-thumbnail" alt="Responsive image">
+              </div>
+              <div class="col">
+              </div>
             </div>
           </div>
         </div>
@@ -434,6 +438,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>
+    function ShowHide(){
+      var x = document.getElementById('myDiv')
+      if (x.style.display == 'none'){
+        x.style.display = 'block';
+      }else{
+        x.style.display ='none'
+      }
+    }
+  </script>
 
 </body>
 
